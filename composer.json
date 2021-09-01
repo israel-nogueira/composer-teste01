@@ -1,12 +1,27 @@
 {
     "name": "nogueira/composer-teste01",
+    "license": "(LGPL-2.1-only or GPL-3.0-or-later)",
     "authors": [
         {
             "name": "Israel Nogueira",
-            "email": "israel@israelnogueira.com"
+            "email": "israel@israelnogueira.com",
+            "homepage": "https://www.israelnogueira.com",
+            "role": "Developer"
         }
     ],
-    "require": {},
+    "support": {
+        "email": "israel@feats.com.br",
+        "irc": "irc://irc.freenode.org/composer"
+    },
+    "funding": [
+        {
+            "type": "patreon",
+            "url": "https://www.patreon.com/nogueira"
+        }
+    ],
+    "require": {
+        "php" : ">=7.4"
+    },
     "autoload": {
         "psr-4": {
             "nogueira\\": "src"
