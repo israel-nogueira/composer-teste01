@@ -1,0 +1,15 @@
+{
+    "name": "nogueira/composer-teste01",
+    "authors": [
+        {
+            "name": "Israel Nogueira",
+            "email": "israel@israelnogueira.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "nogueira\\": "src"
+        }
+    }
+}
